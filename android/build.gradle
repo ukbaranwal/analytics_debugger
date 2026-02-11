@@ -2,6 +2,7 @@ group 'com.solusibejo.analytics_debugger'
 version '1.0-SNAPSHOT'
 
 buildscript {
+    namespace "com.solusibejo.analytics_debugger" 
     ext.kotlin_version = '1.6.10'
     repositories {
         google()
